@@ -1,9 +1,10 @@
 import tkinter as tk
+from MainWindow import MainWindow
 
 
 def main():
-    root = tk.Tk()
-    root.mainloop()
+    main_window = MainWindow()
+    main_window.mainloop()
 
 
 if __name__ == '__main__':
