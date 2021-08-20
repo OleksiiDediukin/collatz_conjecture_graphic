@@ -30,7 +30,7 @@ class GraphFrame(tk.Frame):
                     break
 
     @staticmethod
-    def update_graph(self, x, y, sequence):
+    def update_graph(x, y, sequence):
         x.append(len(x))
         y.append(next(sequence))
         plt.clf()
