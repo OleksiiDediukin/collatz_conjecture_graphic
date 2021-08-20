@@ -15,3 +15,9 @@ class MainWindow(tk.Tk):
         self.graph_frame.pack(side=tk.LEFT, padx=10, pady=10)
         self.panel_frame.pack(side=tk.LEFT, padx=10, pady=10)
 
+    def start_draw(self, start, finish):
+        """Calls the drawing methods on the graph frame."""
+        self.graph_frame.drawing(start, finish)
+
+
+
